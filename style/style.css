@@ -9,7 +9,8 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 main {
     /* border: 2px solid black; */
@@ -19,11 +20,12 @@ main {
     border-radius: 10px;
     box-shadow: 0 1px 7px black;
 }
-h1 {
+h1, h2 {
+    text-transform: uppercase;
     letter-spacing: 2px;
     font:  3.5rem 'Roboto', sans-serif;
 }
-h2 {
+h3 {
     text-transform: uppercase;
     margin-bottom: .1rem;
     font:  2rem 'Roboto', sans-serif;
@@ -48,6 +50,12 @@ table {
 li {
     font: 300 1.5rem 'Inter', sans-serif;
 }
+header {
+    background-color: antiquewhite;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
 section {
     margin: 1rem 0;
 }
@@ -60,6 +68,14 @@ em {
 }
 strong {
     font: 500 1.8rem 'Inter', sans-serif;
+}
+footer {
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font: 300 'Inter', sans-serif;
+    padding: 10px 0;
 }
 /* Header section */
 .header {

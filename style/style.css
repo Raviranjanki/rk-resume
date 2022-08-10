@@ -51,10 +51,11 @@ li {
     font: 300 1.5rem 'Inter', sans-serif;
 }
 header {
-    background-color: antiquewhite;
+    background-color: grey;
     width: 100%;
     text-align: center;
     padding: 10px 0;
+    color: #fff;
 }
 section {
     margin: 1rem 0;
